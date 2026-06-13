@@ -1,81 +1,44 @@
-🐳 django-docker-hi - Django Dockerized App
+# django-docker-hi
 
-A minimal Django project containerized with Docker and Docker Compose.
-This project demonstrates how to run a Django application with a MySQL database inside containers.
+django-docker-hi is a Django-based application that is fully containerized using Docker and Docker Compose. It demonstrates how to run a Django project alongside a MySQL database in a clean and scalable environment.
 
-⸻
+## Features
 
-📌 Features
+- **Django App** – A simple web application built with Django.
+- **Dockerized Setup** – Fully containerized using Docker and Docker Compose.
+- **MySQL Integration** – Uses MySQL as the database backend.
+- **Easy Development** – Quick setup for development environments.
+- **Homepage** – Displays a simple message: “Hi I’m Docker”.
 
-* 🐍 Django web application
-* 🐳 Fully Dockerized setup
-* 🗄️ MySQL database integration
-* ⚡ Easy development environment
-* 👋 Simple homepage: “Hi I’m Docker”
+## Installation & Run
 
-⸻
-
-🏗️ Tech Stack
-
-* Python 3.12
-* Django
-* MySQL
-* Docker & Docker Compose
-
-⸻
-
-📁 Project Structure
-
-.
-├── app/
-├── docker-compose.yml
-├── Dockerfile
-├── manage.py
-└── requirements.txt
-
-⸻
-
-⚙️ Getting Started
-
-1. Clone the repository
-
+1.**Clone the repository**
+```bash
 git clone https://github.com/adelghaedi/django-docker-hi.git
 cd django-docker-hi
+```
 
-⸻
-
-2. Build and run containers
-
+2.**Build and run containers**
+```bash
 docker compose up --build
+```
 
-⸻
-
-3. Open in browser
-
+3.**Open the browser at**
+```
 http://localhost:8000
+```
 
-You should see:
+## Technologies
 
-Hi I'm Docker
+- Python 3.12
+- Django
+- MySQL
+- Docker & Docker Compose
 
-⸻
+## Contributing
 
-📚 Purpose
+Feel free to fork the project, make your changes, and submit a Pull Request.
 
-This project is created for:
+## License
 
-* Learning Docker with Django
-* Understanding containerized environments
-* Serving as a starter template
-
-⸻
-
-🤝 Contributing
-
-Feel free to fork this repository and improve it.
-
-⸻
-
-📄 License
-
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
